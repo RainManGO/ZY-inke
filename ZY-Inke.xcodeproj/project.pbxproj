@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F25D5DFBD1E3D2B3189F3EF /* Pods_ZY_Inke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7853DF07694C921377D2E7 /* Pods_ZY_Inke.framework */; };
+		183E842C1F0C812A0019F1A0 /* const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E842B1F0C812A0019F1A0 /* const.swift */; };
+		183E84301F0CE02D0019F1A0 /* ZYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E842F1F0CE02D0019F1A0 /* ZYBaseViewController.swift */; };
+		183E84321F0CE2890019F1A0 /* ZYMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E84311F0CE2880019F1A0 /* ZYMyViewController.swift */; };
+		183E84341F0CE2A60019F1A0 /* ZYLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E84331F0CE2A60019F1A0 /* ZYLiveViewController.swift */; };
+		183E84361F0E1A260019F1A0 /* ZYNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E84351F0E1A260019F1A0 /* ZYNavViewController.swift */; };
+		185055A01F0F15D100078204 /* ZYNetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850559F1F0F15D100078204 /* ZYNetTool.swift */; };
 		185DCC101F0B7806003345FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185DCC0F1F0B7806003345FD /* AppDelegate.swift */; };
-		185DCC121F0B7806003345FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185DCC111F0B7806003345FD /* ViewController.swift */; };
 		185DCC151F0B7806003345FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DCC131F0B7806003345FD /* Main.storyboard */; };
 		185DCC171F0B7807003345FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185DCC161F0B7807003345FD /* Assets.xcassets */; };
 		185DCC1A1F0B7807003345FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DCC181F0B7807003345FD /* LaunchScreen.storyboard */; };
+		185DCC3A1F0B8375003345FD /* ZYTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185DCC391F0B8375003345FD /* ZYTabbarViewController.swift */; };
+		185DCC3C1F0B83A2003345FD /* ZYTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185DCC3B1F0B83A2003345FD /* ZYTabbar.swift */; };
+		18A431F91F218EA2003141A9 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A431F81F218EA2003141A9 /* APIConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183E842B1F0C812A0019F1A0 /* const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = const.swift; sourceTree = "<group>"; };
+		183E842F1F0CE02D0019F1A0 /* ZYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYBaseViewController.swift; sourceTree = "<group>"; };
+		183E84311F0CE2880019F1A0 /* ZYMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYMyViewController.swift; sourceTree = "<group>"; };
+		183E84331F0CE2A60019F1A0 /* ZYLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYLiveViewController.swift; sourceTree = "<group>"; };
+		183E84351F0E1A260019F1A0 /* ZYNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYNavViewController.swift; sourceTree = "<group>"; };
+		1850559F1F0F15D100078204 /* ZYNetTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYNetTool.swift; sourceTree = "<group>"; };
 		185DCC0C1F0B7805003345FD /* ZY-Inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZY-Inke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		185DCC0F1F0B7806003345FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		185DCC111F0B7806003345FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		185DCC141F0B7806003345FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		185DCC161F0B7807003345FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185DCC191F0B7807003345FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185DCC1B1F0B7807003345FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185DCC391F0B8375003345FD /* ZYTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYTabbarViewController.swift; sourceTree = "<group>"; };
+		185DCC3B1F0B83A2003345FD /* ZYTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYTabbar.swift; sourceTree = "<group>"; };
+		18A431F81F218EA2003141A9 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		665EB4936799C125DD1F61F3 /* Pods-ZY-Inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZY-Inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZY-Inke/Pods-ZY-Inke.release.xcconfig"; sourceTree = "<group>"; };
+		BE7853DF07694C921377D2E7 /* Pods_ZY_Inke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZY_Inke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F1EC2DC967E78D4E4DCFCF /* Pods-ZY-Inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZY-Inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZY-Inke/Pods-ZY-Inke.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F25D5DFBD1E3D2B3189F3EF /* Pods_ZY_Inke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				185DCC0E1F0B7805003345FD /* ZY-Inke */,
 				185DCC0D1F0B7805003345FD /* Products */,
+				851F441627A09BA29983600B /* Pods */,
+				40EE8EABFD11EA7180AA2C65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,207 @@
 		185DCC0E1F0B7805003345FD /* ZY-Inke */ = {
 			isa = PBXGroup;
 			children = (
-				185DCC0F1F0B7806003345FD /* AppDelegate.swift */,
-				185DCC111F0B7806003345FD /* ViewController.swift */,
-				185DCC131F0B7806003345FD /* Main.storyboard */,
+				185DCC211F0B7F26003345FD /* Class */,
 				185DCC161F0B7807003345FD /* Assets.xcassets */,
 				185DCC181F0B7807003345FD /* LaunchScreen.storyboard */,
 				185DCC1B1F0B7807003345FD /* Info.plist */,
 			);
 			path = "ZY-Inke";
+			sourceTree = "<group>";
+		};
+		185DCC211F0B7F26003345FD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				185DCC221F0B7F26003345FD /* APPDelegate */,
+				185DCC231F0B7F26003345FD /* General */,
+				185DCC2A1F0B7F26003345FD /* Net */,
+				185DCC281F0B7F26003345FD /* Helper */,
+				185DCC2B1F0B7F26003345FD /* Sections */,
+				185DCC361F0B7F26003345FD /* Vendors */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		185DCC221F0B7F26003345FD /* APPDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				185DCC131F0B7806003345FD /* Main.storyboard */,
+				185DCC0F1F0B7806003345FD /* AppDelegate.swift */,
+			);
+			path = APPDelegate;
+			sourceTree = "<group>";
+		};
+		185DCC231F0B7F26003345FD /* General */ = {
+			isa = PBXGroup;
+			children = (
+				185DCC241F0B7F26003345FD /* Base */,
+				185DCC251F0B7F26003345FD /* Categories */,
+				185DCC261F0B7F26003345FD /* Model */,
+				185DCC271F0B7F26003345FD /* View */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		185DCC241F0B7F26003345FD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				185DCC391F0B8375003345FD /* ZYTabbarViewController.swift */,
+				185DCC3B1F0B83A2003345FD /* ZYTabbar.swift */,
+				183E842F1F0CE02D0019F1A0 /* ZYBaseViewController.swift */,
+				183E84351F0E1A260019F1A0 /* ZYNavViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		185DCC251F0B7F26003345FD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		185DCC261F0B7F26003345FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185DCC271F0B7F26003345FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185DCC281F0B7F26003345FD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				183E842B1F0C812A0019F1A0 /* const.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		185DCC2A1F0B7F26003345FD /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				1850559F1F0F15D100078204 /* ZYNetTool.swift */,
+				18A431F81F218EA2003141A9 /* APIConfig.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		185DCC2B1F0B7F26003345FD /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				185DCC2C1F0B7F26003345FD /* Live */,
+				185DCC311F0B7F26003345FD /* My */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		185DCC2C1F0B7F26003345FD /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				185DCC2D1F0B7F26003345FD /* Models */,
+				185DCC2E1F0B7F26003345FD /* ViewControllers */,
+				185DCC2F1F0B7F26003345FD /* ViewModels */,
+				185DCC301F0B7F26003345FD /* Views */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		185DCC2D1F0B7F26003345FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		185DCC2E1F0B7F26003345FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				183E84331F0CE2A60019F1A0 /* ZYLiveViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		185DCC2F1F0B7F26003345FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		185DCC301F0B7F26003345FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		185DCC311F0B7F26003345FD /* My */ = {
+			isa = PBXGroup;
+			children = (
+				185DCC321F0B7F26003345FD /* Models */,
+				185DCC331F0B7F26003345FD /* ViewControllers */,
+				185DCC341F0B7F26003345FD /* ViewModels */,
+				185DCC351F0B7F26003345FD /* Views */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		185DCC321F0B7F26003345FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		185DCC331F0B7F26003345FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				183E84311F0CE2880019F1A0 /* ZYMyViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		185DCC341F0B7F26003345FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		185DCC351F0B7F26003345FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		185DCC361F0B7F26003345FD /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		40EE8EABFD11EA7180AA2C65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7853DF07694C921377D2E7 /* Pods_ZY_Inke.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851F441627A09BA29983600B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1EC2DC967E78D4E4DCFCF /* Pods-ZY-Inke.debug.xcconfig */,
+				665EB4936799C125DD1F61F3 /* Pods-ZY-Inke.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185DCC1E1F0B7808003345FD /* Build configuration list for PBXNativeTarget "ZY-Inke" */;
 			buildPhases = (
+				44A6CBA6FA08D72FBE58583C /* [CP] Check Pods Manifest.lock */,
 				185DCC081F0B7805003345FD /* Sources */,
 				185DCC091F0B7805003345FD /* Frameworks */,
 				185DCC0A1F0B7805003345FD /* Resources */,
+				8A4E1D330E5D517884AD79BB /* [CP] Embed Pods Frameworks */,
+				2C7550434213E3ECEE25ED0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +350,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C7550434213E3ECEE25ED0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZY-Inke/Pods-ZY-Inke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44A6CBA6FA08D72FBE58583C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A4E1D330E5D517884AD79BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZY-Inke/Pods-ZY-Inke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		185DCC081F0B7805003345FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185DCC121F0B7806003345FD /* ViewController.swift in Sources */,
+				183E84301F0CE02D0019F1A0 /* ZYBaseViewController.swift in Sources */,
 				185DCC101F0B7806003345FD /* AppDelegate.swift in Sources */,
+				183E842C1F0C812A0019F1A0 /* const.swift in Sources */,
+				183E84361F0E1A260019F1A0 /* ZYNavViewController.swift in Sources */,
+				18A431F91F218EA2003141A9 /* APIConfig.swift in Sources */,
+				183E84321F0CE2890019F1A0 /* ZYMyViewController.swift in Sources */,
+				185DCC3C1F0B83A2003345FD /* ZYTabbar.swift in Sources */,
+				185DCC3A1F0B8375003345FD /* ZYTabbarViewController.swift in Sources */,
+				183E84341F0CE2A60019F1A0 /* ZYLiveViewController.swift in Sources */,
+				185055A01F0F15D100078204 /* ZYNetTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +543,10 @@
 		};
 		185DCC1F1F0B7808003345FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F1EC2DC967E78D4E4DCFCF /* Pods-ZY-Inke.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XB9YNJTZ2K;
 				INFOPLIST_FILE = "ZY-Inke/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -282,8 +559,10 @@
 		};
 		185DCC201F0B7808003345FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 665EB4936799C125DD1F61F3 /* Pods-ZY-Inke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XB9YNJTZ2K;
 				INFOPLIST_FILE = "ZY-Inke/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -313,6 +592,7 @@
 				185DCC201F0B7808003345FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,5 +4,4 @@ use_frameworks!
 
 target 'ZY-Inke’ do
     pod 'Alamofire', '~> 4.4'
-    pod 'ReactiveCocoa', '~> 5.0.0'
 end

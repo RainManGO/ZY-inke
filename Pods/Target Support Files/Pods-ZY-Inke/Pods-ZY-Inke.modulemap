@@ -1,0 +1,6 @@
+framework module Pods_ZY_Inke {
+  umbrella header "Pods-ZY-Inke-umbrella.h"
+
+  export *
+  module * { export * }
+}

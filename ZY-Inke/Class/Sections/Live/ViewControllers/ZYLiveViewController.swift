@@ -12,8 +12,13 @@ class ZYLiveViewController: ZYBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = UIColor.red
         // Do any additional setup after loading the view.
+        var data = Dictionary<String, Any>.init()
+        
+        ZYNetTool().loadLiveData { (data) in
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -12,13 +12,25 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var itemImageList:[UIImage]!
+    var selectImageList:[UIImage]!
+    var tabbarViewControllers:[UIViewController]!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.setUpTabbarConfig()
+        self.window?.rootViewController = ZYTabbarViewController.init(itemList: itemImageList,selectItemList:selectImageList,zyTabbarControllers:tabbarViewControllers)
+        
         return true
     }
-
+    
+    func setUpTabbarConfig(){
+        itemImageList       = [#imageLiteral(resourceName: "tab_live"),#imageLiteral(resourceName: "tab_me")]
+        selectImageList = [#imageLiteral(resourceName: "tab_live_p"),#imageLiteral(resourceName: "tab_me_p")]
+        let liveNav = ZYNavViewController.init(rootViewController: ZYLiveViewController())
+        let myNav = ZYNavViewController.init(rootViewController: ZYMyViewController())
+        tabbarViewControllers = [liveNav,myNav]
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

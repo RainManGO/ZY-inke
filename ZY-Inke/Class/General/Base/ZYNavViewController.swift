@@ -15,6 +15,11 @@ class ZYNavViewController: UINavigationController {
 
         // Do any additional setup after loading the view.
     }
+    
+    //装载定义的导航栏背景
+    func loadBackgroudView(){
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

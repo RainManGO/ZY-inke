@@ -8,12 +8,30 @@
 
 import UIKit
 
-class ZYTabbarViewController: UITabBarController {
-
+class ZYTabbarViewController: UITabBarController,ZYTabbarDelegate{
+    
+    var itemListGloub       = [UIImage]()
+    var selectItemListGloub = [UIImage]()
+    
+    //构造函数：创建TabbarController
+    init(itemList:[UIImage],selectItemList:[UIImage],zyTabbarControllers:[UIViewController]) {
+        super.init(nibName: nil, bundle: nil)
+        itemListGloub = itemList
+        selectItemListGloub = selectItemList
+        self.viewControllers = zyTabbarControllers
+        
+        let tabBar   =  ZYTabbar.init(frame: CGRect.init(x: 0, y: 0, width:SCREEN_WIDTH, height: SCREEN_HEIGHT), itemList: itemListGloub ,selectItemList:selectItemListGloub)
+        tabBar.delegate = self;
+        self.tabBar.addSubview(tabBar)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.white
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +39,10 @@ class ZYTabbarViewController: UITabBarController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    func ZYTabbarCallBack(tabbar: ZYTabbar, clickIndex: Int) {
+        self.selectedIndex = clickIndex - ZYTabbarItemType.ZYTabbarItemTypeLive.hashValue
+    }
 
     /*
     // MARK: - Navigation
